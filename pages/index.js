@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Typed from "react-typed";
 // import Event from "../public/event.jpg";
+import Link from "next/link";
 import { motion as m } from "framer-motion";
 
 export default function Home() {
@@ -42,7 +43,7 @@ export default function Home() {
             special entities FabLab, Coding School, OrangeFab
           </p>
           <button className="bg-black w-[200px] rounded-md font-medium my-6 mx-auto py-3 mt-10 text-white ">
-            Explore Geeks
+            <Link href={"/profiles"}>Explore Profiles</Link>
           </button>
         </div>
       </main>
