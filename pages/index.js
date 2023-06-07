@@ -37,7 +37,7 @@ export default function Home() {
               loop
             />
           </div>
-          <p className="md:text-xl text-sm font-normal text-gray-400 mt-4">
+          <p className="md:text-xl text-sm font-normal text-gray-600 mt-4">
             Comme to learn achieve and innovate a full equiped club with three
             special entities FabLab, Coding School, OrangeFab
           </p>

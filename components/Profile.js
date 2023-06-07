@@ -1,4 +1,6 @@
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
+import { GrInherit } from "react-icons/gr";
 
 export default function Profile({ profile }) {
   return (
@@ -11,7 +13,7 @@ export default function Profile({ profile }) {
     >
       <div className="w-[20rem] h-[20rem] rounded-md border border-gray-400 flex flex-col justify-center items-center gap-10">
         <div>
-          <img className="" src={profile.image} />
+          <Image className="" src={profile.image} width={50} height={30} />
         </div>
         <h1 className="text-xl font-medium ">{profile.id}</h1>
       </div>

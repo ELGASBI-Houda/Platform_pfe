@@ -42,7 +42,7 @@ export default function Profiles() {
                 <button onClick={() => setData(ProfileData)}>All</button>
               </li>
               {collection.map((item) => (
-                <li className="hover:text-orange-500">
+                <li key={item.id} className="hover:text-orange-500">
                   <button
                     onClick={() => {
                       Profile_filter(item);
