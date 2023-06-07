@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Typed from "react-typed";
-import Event from "../public/event.jpg";
+// import Event from "../public/event.jpg";
 import { motion as m } from "framer-motion";
 
 export default function Home() {
