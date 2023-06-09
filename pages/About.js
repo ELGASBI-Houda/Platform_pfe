@@ -11,7 +11,7 @@ export default function About() {
     className="bg-white">
       <AnimatePresence>
         {/* About page content */}
-        <div className="w-full bg-white py-16 px-4 lg:mt">
+        <div className="w-full bg-white py-16 px-2 lg:mt">
           <div className="max-w-[1240px] mx-auto grid md:grid-cols-2">
             {/* text */}
             <div className="flex flex-col justify-center pl-8 md:mx-2">
