@@ -12,7 +12,7 @@ export default function Navbar() {
     setNav(!nav);
   };
   return (
-    <nav className="bg-white px-8 py-6 flex justify-between md:px-20 lg:px-30 overflow-y-hidden ">
+    <nav className="bg-white px-2 py-6 flex justify-between md:px-4 lg:px-8 overflow-y-hidden ">
       {/* <h1 className="text-3xl font-bold text-orange-400">
         Orange
          <span

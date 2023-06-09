@@ -9,11 +9,11 @@ export default function Profiles() {
 
   useEffect(() => {
     setData(ProfileData);
-    setCollection([...new Set(ProfileData.map((item) => item.titile))]);
+    setCollection([...new Set(ProfileData.map((item) => item.spec))]);
   }, []);
 
   const Profile_filter = (itemData) => {
-    const filterData = ProfileData.filter((item) => item.titile == itemData);
+    const filterData = ProfileData.filter((item) => item.spec == itemData);
     setData(filterData);
   };
   return (
@@ -25,10 +25,10 @@ export default function Profiles() {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.75, ease: "easeOut" }}
         exit={{ opacity: 0 }}
-        className="flex flex-col gap-5"
+        className="flex flex-col gap-5 mb-4"
       >
         <AnimatePresence>
-          <div className="px-16 my-10 ">
+          <div className="px-2 my-10 ">
             <h1 className="md:text-4xl text-3xl font-bold py-2 pb-2">
               ODC Profiles
             </h1>
@@ -37,7 +37,7 @@ export default function Profiles() {
             </p>
           </div>
           <div className="flex">
-            <ul className="flex gap-12 px-12  text-xl font-medium mx-auto pb-2">
+            <ul className="flex flex-wrap gap-12 px-12  text-xl font-medium mx-auto pb-2">
               <li className="hover:text-orange-500">
                 <button onClick={() => setData(ProfileData)}>All</button>
               </li>
@@ -56,9 +56,8 @@ export default function Profiles() {
           </div>
           <div className="w-full flex flex-wrap gap-10 justify-center items-center mt-2 mx-auto pb-2">
             {data.map((item) => (
-              <div key={item.id} className="galleryItem">
+              <div key={item.id}>
                 <Profile profile={item} />
-                {/* <img src={item.image} /> */}
               </div>
             ))}
           </div>

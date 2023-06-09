@@ -1,14 +1,16 @@
 import Event from "../public/event.jpg";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 export default function About() {
   return (
-    <motion.main 
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    transition={{ duration: 0.75, ease: "easeOut" }}
-    exit={{ opacity: 0 }}
-    className="bg-white">
+    <motion.main
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.75, ease: "easeOut" }}
+      exit={{ opacity: 0 }}
+      className="bg-white"
+    >
       <AnimatePresence>
         {/* About page content */}
         <div className="w-full bg-white py-16 px-4 lg:mt">
@@ -26,9 +28,11 @@ export default function About() {
                 Assumenda quae quasi, tenetur, itaque vero sint illo dicta
                 molestias, ipsa asperiores deserunt inventore.
               </p>
-              <button className="bg-black w-[200px] rounded-md font-medium my-6  py-3 mt-10 text-white ">
-                Check Profiles
-              </button>
+              <Link href={"/Profiles"}>
+                <button className="bg-black w-[200px] rounded-md font-medium my-6  py-3 mt-10 text-white ">
+                  Check Profiles
+                </button>
+              </Link>
             </div>
             {/* img */}
             <Image
