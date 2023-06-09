@@ -12,7 +12,7 @@ export default function Navbar() {
     setNav(!nav);
   };
   return (
-    <nav className="bg-white px-8 py-6 flex justify-between md:px-20 lg:px-30 overflow-y-hidden ">
+    <nav className="bg-white px-2 py-2 flex justify-between md:px-20 lg:px-30 overflow-y-hidden ">
       {/* <h1 className="text-3xl font-bold text-orange-400">
         Orange
          <span
@@ -22,7 +22,7 @@ export default function Navbar() {
            Digital Center
         </span>
       </h1> */}
-      <div className="text-2xl font-bold items-center">
+      <div className="text-xl font-bold items-center">
         <Link href="/">
           <h1 className="text-orange-400">Orange</h1>
           <h1>Digital Center</h1>
