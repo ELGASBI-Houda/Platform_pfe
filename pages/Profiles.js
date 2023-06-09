@@ -38,7 +38,7 @@ export default function Profiles() {
           </div>
 // changed here px and row
           <div className="flex px-[-5px]">
-            <ul className="flex flex-row gap-12 px-12 text-xl font-medium mx-auto pb-2">
+            <ul className="flex flex-wrap gap-12 px-12 text-xl font-medium mx-auto pb-2">
               <li className="hover:text-orange-500">
                 <button onClick={() => setData(ProfileData)}>All</button>
               </li>
