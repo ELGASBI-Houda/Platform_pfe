@@ -21,7 +21,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="../public/logom.png" />
       </Head>
-      <main className="bg-white ">
+      <main className="bg-white overflow-y-hidden">
         <div className="max-w-[850px] mt-[-96px] w-full h-[750px] mx-auto text-center flex flex-col justify-center">
           <p className="text-orange-500 font-bold p-2">Welcome to the Club</p>
           <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold  md:py-6">
