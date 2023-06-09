@@ -28,7 +28,7 @@ export default function Profiles() {
         className="flex flex-col gap-5"
       >
         <AnimatePresence>
-          <div className="px-16 my-10 ">
+          <div className="px-10 my-10 ">
             <h1 className="md:text-4xl text-3xl font-bold py-2 pb-2">
               ODC Profiles
             </h1>
