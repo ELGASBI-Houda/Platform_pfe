@@ -2,7 +2,6 @@ export const ProfileData = [
   {
     id: 1,
     titile: "developement",
-    // image: "/images/a1.jpg",
     image: "",
   },
   {
