@@ -1,5 +1,6 @@
 import Head from "next/head";
-import Typed from "react-typed";
+// import Typed from "react-typed";
+import Typewriter from "typewriter-effect";
 // import Event from "../public/event.jpg";
 import Link from "next/link";
 import { motion as m } from "framer-motion";
@@ -30,13 +31,23 @@ export default function Home() {
             <p className="md:text-5xl sm:text-4xl text-xl font-bold">
               Learn, Code & Make
             </p>
-            <Typed
+            {/* <Typed
               className="md:text-5xl sm:text-4xl text-xl text-orange-500 font-bold pl-2"
               strings={["#Innovation", "#Creativity", "#Success"]}
               typeSpeed={120}
               backSpeed={140}
               loop
-            />
+            /> */}
+            <h1 className="md:text-5xl sm:text-4xl text-xl text-orange-500 font-bold pl-2">
+              {" "}
+              <Typewriter
+                options={{
+                  strings: ["#Innovation", "#Creativity", "#Success"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </h1>
           </div>
           <p className="md:text-xl text-sm font-normal text-gray-600 mt-4">
             Comme to learn achieve and innovate a full equiped club with three
