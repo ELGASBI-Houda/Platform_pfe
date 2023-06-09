@@ -116,26 +116,28 @@ export const ProfileData = [
     name: "OUABIR chaymae",
     spec: "Market",
     cv: "https://drive.google.com/open?id=1dU5fUo8Ze4NT9j6Ugx8-lr0XJ_iO3GJk",
+    portfolio: "",
     img: "/images/oauabir.jpeg",
   },
   {
     name: "MAAZOUZ Wissal",
     spec: "Market",
     cv: "https://drive.google.com/open?id=1CTBxJC5F4Ds5PA8T8xOccmFdIj9Xm39p",
+    portfolio: "",
     img: "/images/maazouz.jpeg",
   },
   {
     name: "EL GHAMZOURI Oumaima",
     spec: "Market",
     cv: "https://drive.google.com/open?id=1q4ZNiQZfPoJiuXkn9t9LOFDSXJxw649G",
-
+    portfolio: "",
     img: "/images/ghamzouri.jpg",
   },
   {
     name: "RACHAD Meryem",
     spec: "Market",
     cv: "https://drive.google.com/open?id=12Cyix_RcHYfTKvHhv4B3HAj1e3YPvsO5",
-
+    portfolio: "",
     img: "/images/rachad.jpg",
   },
 ];

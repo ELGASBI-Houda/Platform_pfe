@@ -33,7 +33,7 @@ export default function Profile({ profile }) {
               Resume
             </p>
           </Link>
-          <Link href={""}>
+          <Link href={profile.portfolio}>
             <p className="bg-black textx-xl text-white p-2 font-normal mx-auto rounded-lg">
               Portfolio
             </p>
