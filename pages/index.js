@@ -22,7 +22,7 @@ export default function Home() {
         <link rel="icon" href="../public/logom.png" />
       </Head>
       <main className="bg-white overflow-y-hidden">
-        <div className="max-w-[850px] mt-[-96px] w-full h-[750px] mx-auto text-center flex flex-col justify-center">
+        <div className="max-w-[850px] mt-[-94px] w-full h-[750px] mx-auto text-center flex flex-col justify-center">
           <p className="text-orange-500 font-bold p-2">Welcome to the Club</p>
           <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold  md:py-6">
             <span className="text-orange-500">Orange</span> Digital Center
