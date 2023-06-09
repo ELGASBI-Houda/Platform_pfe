@@ -1,4 +1,4 @@
-import { ProfileData } from "./ProfileData";
+import { ProfileData } from "../ProfileData";
 import { useEffect, useState } from "react";
 import Profile from "@/components/Profile";
 import { motion, AnimatePresence } from "framer-motion";
