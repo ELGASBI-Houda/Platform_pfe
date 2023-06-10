@@ -37,7 +37,7 @@ export default function Profiles() {
             </p>
           </div>
           <div className="flex">
-            <ul className="flex gap-12 px-12  text-xl font-medium mx-auto pb-2">
+            <ul className="flex flex-wrap gap-12 px-12  text-xl font-medium mx-auto pb-2">
               <li className="hover:text-orange-500">
                 <button onClick={() => setData(ProfileData)}>All</button>
               </li>
