@@ -19,6 +19,7 @@ export default function Profile({ profile }) {
             src={profile.img}
             width={100}
             height={90}
+            alt="profile image"
           />
         </div>
         <div className="flex flex-col justify-center items-center">
