@@ -33,7 +33,7 @@ export default function Profiles() {
               ODC Profiles
             </h1>
             <p className="font-normal text-xl py-1 ">
-              Here are our talented and created interns to check!
+              Here are our talented and creative interns profiles to check!
             </p>
           </div>
           <div className="flex">
