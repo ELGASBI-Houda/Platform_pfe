@@ -33,11 +33,11 @@ export default function Profiles() {
               ODC Profiles
             </h1>
             <p className="font-normal text-xl py-1 ">
-              Here are our talented and created interns to check!
+              Here are our talented and creative interns profiles to check!
             </p>
           </div>
           <div className="flex">
-            <ul className="flex gap-12 px-12  text-xl font-medium mx-auto pb-2">
+            <ul className="flex flex-wrap gap-12 px-12  text-xl font-medium mx-auto pb-2">
               <li className="hover:text-orange-500">
                 <button onClick={() => setData(ProfileData)}>All</button>
               </li>
