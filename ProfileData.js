@@ -75,21 +75,21 @@ export const ProfileData = [
     spec: "Embeeded System",
     cv: "https://drive.google.com/open?id=1JPjJ9DFVQlI3ok6F5nQ6WHNifX5KqM--",
     portfolio: "https://ismail-bensidi-khir.my.canva.site/",
-    img: "",
+    img: "/images/touhami_ismail.jpg",
   },
   {
     name: "BOUDLAL Nouhaila",
     spec: "Embeeded System",
     cv: "https://drive.google.com/open?id=1AGyq7NsvXhfS74SRwWeuBkKairieovyy",
     portfolio: "https://nouhaila-portfolio.my.canva.site/ ",
-    img: "",
+    img: "/images/nouhaila_boudlale.jpg",
   },
   {
     name: "GUEDAR Lamiae",
     spec: "Embeeded System",
     cv: "https://drive.google.com/open?id=1gIr5rGF5oflPZD2VDGwHD-WOWbyXV7YJ",
     portfolio: "https://portfolio-lamiae-guedar.my.canva.site/",
-    img: "",
+    img: "/images/lamia_guedar.jpeg",
   },
   {
     name: "OUKALTOUM Ibtissam",
@@ -110,7 +110,7 @@ export const ProfileData = [
     spec: "Embeeded System",
     cv: "https://drive.google.com/open?id=1X7Yaq4jAWr983FQoyll6panjWsZYmv0b",
     portfolio: "https://portfolioaouam.my.canva.site/",
-    img: "",
+    img: "/images/aouam_mehdi.jpg",
   },
   {
     name: "OUABIR chaymae",
